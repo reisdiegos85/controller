@@ -1,0 +1,1 @@
+SELECT setval('como_conheceu_id_seq', coalesce(max(id),0) + 1, false) FROM como_conheceu;
